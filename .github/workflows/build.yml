@@ -1,5 +1,6 @@
 name: Build and Push to GHCR
 
+# 由 hyevan 通过 GitHub Actions 自动构建并推送到 GHCR（EVO4 直接 pull 预编译镜像）
 on:
   push:
     branches: [main]
